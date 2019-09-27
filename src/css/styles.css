@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 :root {
     --green-color: #7ACC2D;
     --green-shadow: 0px 3px 6px #26B7137E;
+    --gray-shadow: 0px 3px 6px rgba(133, 134, 133, 0.494);
+    --gray-shadow-hover: 0px 3px 15px rgba(133, 134, 133, 0.494);
 }
 
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header {
@@ -21,7 +25,8 @@ nav {
     align-items: center;
     background-color: var(--green-color);
     padding: 0px 20px;
-    box-shadow: var(--green-shadow)
+    box-shadow: var(--green-shadow);
+    position: fixed;
 }
 
 #menu ul {
@@ -47,16 +52,62 @@ nav {
 
 
 main {
-    height: 30vh;
+    height: 60vh;
+    padding: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-main h1 {
-    padding: 40px;
+#products_container {
+    height: 40vh;
+    background-image: url("/src/images/curve.png");
+    background-size: cover;
+    background-position: center top;
+    display: flex;
+    justify-content: center;
 }
 
-#products_container {
-    
+.card  {
+    width: 200px;
+    height: 265px;;
+    background-color: white;
+    margin: 10px;
+    margin-top: -100px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: var(--gray-shadow)
+}
+
+.card:hover {
+    box-shadow: var(--gray-shadow-hover)
+}
+
+.card .img_container {
+    display: flex;
+    justify-content: center;
+}
+
+.card h2 {
+    font-size: 17px;
+}
+
+.card p {
+    font-size: 12px;
+}
+
+.card a {
+    display: block;
+    padding: 5px;
+    margin: 5px 0px;
+    border-radius: 2px;
+    background-color: var(--green-color);
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card a:hover {
+    box-shadow: var(--green-shadow)
 }
