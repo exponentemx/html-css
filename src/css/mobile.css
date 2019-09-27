@@ -1,0 +1,48 @@
+@media (max-width: 600px) {
+    main {
+        padding: 4%;
+        text-align: center;
+    }
+
+    main h1 {
+        font-size: 24px;
+    }
+    #products_container {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 5%;
+    }
+
+    .card {
+        width: 70%;
+        margin-top: auto;
+    }
+    
+    #section_two {
+        padding: 10% 0%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .card_two {
+        margin: 5%;
+    }
+
+    #mentions {
+        height: auto;
+        padding: 10%
+    }
+
+    .mention {
+        margin: 5%;
+    }
+    .mentions-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #menu {
+        display: none;
+    }
+}
