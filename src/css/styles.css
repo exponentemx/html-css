@@ -17,6 +17,7 @@
 header {
     width: 100%;
     position: fixed;
+    z-index: 1;
     height: 60px;
     top: 0;
 }
@@ -64,7 +65,7 @@ main {
 
 #products_container {
     height: 40vh;
-    background-image: url("/src/images/curve.png");
+    background-image: url("../images/curve.png");
     background-size: cover;
     background-position: center top;
     display: flex;
@@ -76,7 +77,7 @@ main {
     height: 265px;;
     background-color: white;
     margin: 10px;
-    margin-top: -100px;
+    margin-top: -70px;
     padding: 10px;
     border-radius: 5px;
     box-shadow: var(--gray-shadow);
@@ -125,6 +126,7 @@ main {
 }
 .card_two {
     width: 200px;
+    margin: 20px;
 }
 .card_two .img_container {
     display: flex;

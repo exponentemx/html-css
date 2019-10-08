@@ -1,126 +1,143 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Curso de HTML y CSS</title>
-    <link rel="stylesheet" href="src/css/normalize.css">
-    <link rel="stylesheet" href="src/css/styles.css">
-    <link rel="stylesheet" href="src/css/mobile.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <section id="brand">
-                <img src="src/images/logo.png" alt="">
-            </section>
-            <section id="menu">
-                <ul>
-                    <li><a href="">Faqs</a></li>
-                    <li><a href="">Producto y Descripción</a></li>
-                </ul>
-            </section>
-        </nav>
-    </header>
-    <main>
-        <h1>Este es un producto increíble, no sé que haces viendo que lo puedes tener</h1>
-    </main>
-    <section id="products_container">
-        <div class="card">
-            <div class="img_container">
-                <img src="src/images/box2.png" alt="">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Curso de HTML y CSS</title>
+        <link rel="stylesheet" href="src/css/normalize.css" />
+        <link rel="stylesheet" href="src/css/styles.css" />
+        <link rel="stylesheet" href="src/css/mobile.css" />
+        <link rel="stylesheet" href="src/css/animations.css" />
+    </head>
+
+    <body>
+        <header class="fadeInDown">
+            <nav>
+                <section id="brand">
+                    <img src="src/images/logo.png" alt="" />
+                </section>
+                <section id="menu">
+                    <ul>
+                        <li><a href="">Faqs</a></li>
+                        <li><a href="">Producto y Descripción</a></li>
+                    </ul>
+                </section>
+            </nav>
+        </header>
+        <main>
+            <h1 class="fadeIn">
+                Este es un producto increíble, no sé que haces viendo que lo
+                puedes tener
+            </h1>
+        </main>
+        <section id="products_container">
+            <div class="card fadeInUp">
+                <div class="img_container">
+                    <img src="src/images/box2.png" alt="" />
+                </div>
+                <h2>Title</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#">Lo quiero</a>
             </div>
-            <h2>Title</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-            <a href="#">Lo quiero</a>
-        </div>
-        <div class="card">
-            <div class="img_container">
-                <img src="src/images/box1.png" alt="">
+            <div class="card fadeInUp">
+                <div class="img_container">
+                    <img src="src/images/box1.png" alt="" />
+                </div>
+                <h2>Title</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#">Lo quiero</a>
             </div>
-            <h2>Title</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-            <a href="#">Lo quiero</a>
-        </div>
-    </section>
-    <section id="section_two">
-        <div class="card_two">
-            <div class="img_container">
-                <img src="src/images/b1.png" alt="">
+        </section>
+        <section id="section_two">
+            <div class="card_two">
+                <div class="img_container">
+                    <img src="src/images/b1.png" alt="" />
+                </div>
+                <h2>Los más suavecitos</h2>
+                <p>
+                    Miles de productos en el mercado, pero nada como una caja
+                    con gatitos.
+                </p>
             </div>
-            <h2>Los más suavecitos</h2>
-            <p>
-                Miles de productos en el mercado, pero nada
-                como una caja con gatitos.
-            </p>
-        </div>
-        <div class="card_two">
-            <div class="img_container">
-                <img src="src/images/b2.png" alt="">
+            <div class="card_two">
+                <div class="img_container">
+                    <img src="src/images/b2.png" alt="" />
+                </div>
+                <h2>Lo más increíble</h2>
+                <p>
+                    Miles de productos en el mercado, pero nada como una caja
+                    con gatitos.
+                </p>
             </div>
-            <h2>Lo más increíble</h2>
-            <p>
-                Miles de productos en el mercado, pero nada
-                como una caja con gatitos.
-            </p>
-        </div>
-        <div class="card_two">
-            <div class="img_container">
-                <img src="src/images/b3.png" alt="">
+            <div class="card_two">
+                <div class="img_container">
+                    <img src="src/images/b3.png" alt="" />
+                </div>
+                <h2>Lo más increíble</h2>
+                <p>
+                    Miles de productos en el mercado, pero nada como una caja
+                    con gatitos.
+                </p>
             </div>
-            <h2>Lo más increíble</h2>
-            <p>
-                Miles de productos en el mercado, pero nada
-                como una caja con gatitos.
-            </p>
-        </div>
-    </section>
-    <div class="separator"></div>
-    <section id="mentions">
-        <h1>Menciones</h1>
-        <div class="mentions-container">
+        </section>
+        <div class="separator"></div>
+        <section id="mentions">
+            <h1>Menciones</h1>
+            <div class="mentions-container">
                 <div class="mention">
-                        <div class="img_container">
-                            <img src="src/images/p1.png" alt="">
-                        </div>
-                        <div class="info-container">
-                            <h3>Mario</h3>
-                            <p>Miles de productos hay en el mercado, pero nada como una caja con gatitos</p>
-                        </div>
+                    <div class="img_container">
+                        <img src="src/images/p1.png" alt="" />
                     </div>
-                    <div class="mention">
-                        <div class="img_container">
-                            <img src="src/images/p2.png" alt="">
-                        </div>
-                        <div class="info-container">
-                            <h3>María</h3>
-                            <p>Miles de productos hay en el mercado, pero nada como una caja con gatitos</p>
-                        </div>
+                    <div class="info-container">
+                        <h3>Mario</h3>
+                        <p>
+                            Miles de productos hay en el mercado, pero nada como
+                            una caja con gatitos
+                        </p>
                     </div>
-                    <div class="mention">
-                        <div class="img_container">
-                            <img src="src/images/p3.png" alt="">
-                        </div>
-                        <div class="info-container">
-                            <h3>Joe</h3>
-                            <p>Miles de productos hay en el mercado, pero nada como una caja con gatitos</p>
-                        </div>
+                </div>
+                <div class="mention">
+                    <div class="img_container">
+                        <img src="src/images/p2.png" alt="" />
                     </div>
-                    <div class="mention">
-                        <div class="img_container">
-                            <img src="src/images/p4.png" alt="">
-                        </div>
-                        <div class="info-container">
-                            <h3>Jamaica</h3>
-                            <p>Miles de productos hay en el mercado, pero nada como una caja con gatitos</p>
-                        </div>
+                    <div class="info-container">
+                        <h3>María</h3>
+                        <p>
+                            Miles de productos hay en el mercado, pero nada como
+                            una caja con gatitos
+                        </p>
                     </div>
-        </div>
-    </section>
-    <footer>
-        <span>Términos y condiciones</span>
-        <address>carlos.garcia.esquivel@live.com.mx</address>
-    </footer>
-</body>
+                </div>
+                <div class="mention">
+                    <div class="img_container">
+                        <img src="src/images/p3.png" alt="" />
+                    </div>
+                    <div class="info-container">
+                        <h3>Joe</h3>
+                        <p>
+                            Miles de productos hay en el mercado, pero nada como
+                            una caja con gatitos
+                        </p>
+                    </div>
+                </div>
+                <div class="mention">
+                    <div class="img_container">
+                        <img src="src/images/p4.png" alt="" />
+                    </div>
+                    <div class="info-container">
+                        <h3>Jamaica</h3>
+                        <p>
+                            Miles de productos hay en el mercado, pero nada como
+                            una caja con gatitos
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <span>Términos y condiciones</span>
+            <address>carlos.garcia.esquivel@live.com.mx</address>
+        </footer>
+    </body>
 </html>
