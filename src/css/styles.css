@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 :root {
   --green-color: #7acc2d;
+  --black-color: #313337;
   --green-shadow: 0px 3px 6px #26b7137e;
   --gray-shadow: 0px 3px 6px rgba(133, 134, 133, 0.494);
   --gray-shadow-hover: 0px 3px 15px rgba(133, 134, 133, 0.494);
@@ -237,6 +238,10 @@ footer {
   display: flex;
   justify-content: space-between;
   padding: 20px;
+}
+
+footer a {
+  color: var(--green-color);
 }
 
 .product {
