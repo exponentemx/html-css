@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Curso de HTML y CSS</title>
+    <link rel="stylesheet" href="src/css/normalize.css" />
+    <link rel="stylesheet" href="src/css/styles.css" />
+    <link rel="stylesheet" href="src/css/mobile.css" />
+    <link rel="stylesheet" href="src/css/animations.css" />
+    <link rel="stylesheet" href="src/css//grid.css" />
+  </head>
+
+  <body>
+    <header class="fadeInDown">
+      <nav>
+        <section id="brand">
+          <img src="src/images/logo.png" alt="" />
+        </section>
+        <section id="menu">
+          <ul>
+            <li><a href="">Faqs</a></li>
+            <li><a href="">Producto y Descripción</a></li>
+          </ul>
+        </section>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <div class="modulo_pago">
+            <div class="modulo_pago_img">
+              <img src="src/images/box2.png" alt="" />
+            </div>
+            <h3>Producto 1</h3>
+            <p>
+              Miles de productos hay en el mercado, pero nada como una caja con
+              gatitos
+            </p>
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="modulo_pago">
+            <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=W6XWJB843T5DQ" method="POST">
+              <label for="name">Nombre</label><br />
+              <input
+                type="text"
+                class="modulo_pago_input"
+                name="first_name"
+                id="name"
+                value="juan"
+                placeholder="Nombre"
+              /><br />
+              <label for="mail">Mail</label><br />
+              <input
+                type="text"
+                class="modulo_pago_input"
+                name="email"
+                id="email"
+                value="email@app.com"
+                placeholder="Mail"
+              /><br />
+              <label for="phone">Teléfono</label><br />
+              <input
+                type="text"
+                class="modulo_pago_input"
+                name="night_phone_a"
+                id="phone"
+                value="722"
+                placeholder="Teléfono"
+              />
+              <input type="submit" value="Enviar" class="main_btn" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <span>Términos y condiciones</span>
+      <address>carlos.garcia.esquivel@live.com.mx</address>
+    </footer>
+  </body>
+</html>
