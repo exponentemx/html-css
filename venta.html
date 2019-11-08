@@ -16,12 +16,14 @@
     <header class="fadeInDown">
       <nav>
         <section id="brand">
-          <img src="src/images/logo.png" alt="" />
+          <a href="index.html">
+            <img src="src/images/logo.png" alt="" />
+          </a>
         </section>
         <section id="menu">
           <ul>
-            <li><a href="">Faqs</a></li>
-            <li><a href="">Producto y Descripción</a></li>
+            <li><a href="#">Faqs</a></li>
+            <li><a href="products.html">Producto y Descripción</a></li>
           </ul>
         </section>
       </nav>
@@ -42,32 +44,32 @@
         </div>
         <div class="col-8">
           <div class="modulo_pago">
-            <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=W6XWJB843T5DQ" method="POST">
-              <label for="name">Nombre</label><br />
+            <form
+              action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=W6XWJB843T5DQ"
+              method="POST"
+            >
+              <label for="first_name">Nombre</label><br />
               <input
                 type="text"
                 class="modulo_pago_input"
                 name="first_name"
-                id="name"
-                value="juan"
+                id="first_name"
                 placeholder="Nombre"
               /><br />
               <label for="mail">Mail</label><br />
               <input
-                type="text"
+                type="email"
                 class="modulo_pago_input"
                 name="email"
                 id="email"
-                value="email@app.com"
-                placeholder="Mail"
+                placeholder="app@example.com"
               /><br />
               <label for="phone">Teléfono</label><br />
               <input
                 type="text"
                 class="modulo_pago_input"
-                name="night_phone_a"
+                name="phone"
                 id="phone"
-                value="722"
                 placeholder="Teléfono"
               />
               <input type="submit" value="Enviar" class="main_btn" />
@@ -78,7 +80,11 @@
     </div>
     <footer>
       <span>Términos y condiciones</span>
-      <address>carlos.garcia.esquivel@live.com.mx</address>
+      <address>
+        <a href="mailto:carlos.garcia.esquivel@live.com.mx"
+          >carlos.garcia.esquivel@live.com.mx</a
+        >
+      </address>
     </footer>
   </body>
 </html>

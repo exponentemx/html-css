@@ -1,0 +1,7 @@
+.container .row:nth-child(3) .col-4 {
+  order: 2;
+}
+[class='col-4'] {
+  display: flex;
+  justify-content: center;
+}
